@@ -15,10 +15,38 @@ body {
 
 header {
   background-color:#d05c2e;
+  margin: 0;
 }
 
 h1{
+  font-family: 'Merriweather', bold;
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  font-size: 2rem;
+  padding: 3;
+}
 
+.nav {
+  margin: 0;
+  list-style-type: none;
+  text-align: center;
+  overflow: hidden;
+}
+
+.nav li{
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  float: left;
+  width: 33%;
+}
+
+.nav a {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
 }
 
 body{
