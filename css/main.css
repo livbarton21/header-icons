@@ -1,4 +1,5 @@
 html {
+  font-family: 'Merriweather', serif;
   box-sizing:border-box;
   line-height:1.5;
 }
@@ -15,10 +16,10 @@ body {
 
 header {
   background-color:#d05c2e;
-  margin: 0;
 }
 
 h1{
+  padding: .5rem;
   font-family: 'Merriweather', bold;
   color: #fff;
   text-align: center;
@@ -28,6 +29,7 @@ h1{
 }
 
 .nav {
+  padding-left: 0;
   margin: 0;
   list-style-type: none;
   text-align: center;
@@ -47,6 +49,7 @@ h1{
   display: inline-block;
   color: #fff;
   text-decoration: none;
+  padding: 1rem;
 }
 
 body{
@@ -55,4 +58,17 @@ body{
 
 nav a {
   background-color:#d05c2e;
+}
+
+img {
+  padding: .5rem;
+  width: 50px;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
 }
