@@ -63,6 +63,6 @@ img {
   float: right;
 }
 
-.nav:hover {
+a:hover {
   background-color: #a63f38;
 }
